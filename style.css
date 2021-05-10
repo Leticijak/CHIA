@@ -491,3 +491,10 @@ textarea:focus {
   outline: none !important;
   border: 2px solid #000 !important;
 }
+form button {
+  background-color: #161616;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 60px;
+  border: none;
+}
