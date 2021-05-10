@@ -498,3 +498,30 @@ form button {
   padding: 10px 60px;
   border: none;
 }
+
+.media ion-icon {
+  font-size: 33px;
+}
+
+.media-menu ion-icon {
+  font-size: 1.4rem;
+}
+.nav ion-icon {
+  font-size: 1.4rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link a {
+  text-decoration: none;
+}
+div.link:nth-child(2) > a:nth-child(1) {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+div.link:nth-child(2) > a:nth-child(1):hover {
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}

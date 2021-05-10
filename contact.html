@@ -10,6 +10,7 @@
 
     <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- bootstrapcdn -->
     <link
@@ -48,9 +49,7 @@
         <div class="brand">
           <span><a href="index.html">BUY CHIA PLOTS</a></span>
         </div>
-        <div class="cart">
-          <ion-icon name="cart"></ion-icon>
-        </div>
+
         <div class="menu">
           <div class="menu-close">
             <ion-icon name="close"></ion-icon>
@@ -64,8 +63,6 @@
             <ul>
               <li><ion-icon name="logo-facebook"></ion-icon></li>
               <li><ion-icon name="logo-instagram"></ion-icon></li>
-              <li><ion-icon name="logo-twitter"></ion-icon></li>
-              <li><ion-icon name="logo-pinterest"></ion-icon></li>
             </ul>
           </div>
         </div>
@@ -76,12 +73,12 @@
       <!-- DATA SECTION STARS -->
 
       <div class="about-hero">
-        <div class="container-fluid hero wow fadeInUp">
+        <div class="container-fluid hero" data-aos="fade-up">
           <h1 id="hero-title">Contact us</h1>
         </div>
 
-        <div class="container content">
-          <p class="wow fadeInUp">
+        <div class="container content" data-aos="fade-up">
+          <p class="">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
             optio expedita minus accusantium facere placeat magnam maiores nulla
             magni dolore blanditiis eligendi, aliquam odio voluptates cum ut
@@ -91,11 +88,7 @@
           <form action="https://formspree.io/f/xnqlpaol" method="POST">
             <div class="form-group">
               <label>Name</label>
-              <input
-                type="text"
-                class="form-control wow fadeInUp"
-                data-wow-delay="0.5s"
-              />
+              <input type="text" class="form-control" data-aos="fade-up" />
             </div>
 
             <div class="form-group">
@@ -103,8 +96,8 @@
               <input
                 type="email"
                 name="_replyto"
-                class="form-control wow fadeInUp"
-                data-wow-delay="0.7s"
+                class="form-control"
+                data-aos="fade-up"
               />
             </div>
 
@@ -112,13 +105,13 @@
               <label>Message</label>
               <textarea
                 rows="3"
-                class="form-control wow fadeInUp"
-                data-wow-delay="0.8s"
+                class="form-control"
+                data-aos="fade-up"
                 name="message"
               ></textarea>
             </div>
 
-            <div class="add-prod wow fadeInUp" data-wow-delay="0.2s">
+            <div class="add-prod" data-aos="fade-up">
               <button type="sumbit">SEND</button>
             </div>
           </form>
@@ -153,8 +146,6 @@
                   <ul>
                     <li><ion-icon name="logo-facebook"></ion-icon></li>
                     <li><ion-icon name="logo-instagram"></ion-icon></li>
-                    <li><ion-icon name="logo-twitter"></ion-icon></li>
-                    <li><ion-icon name="logo-pinterest"></ion-icon></li>
                   </ul>
                 </div>
               </div>
@@ -166,10 +157,13 @@
       <!-- FOOTER ENDS -->
     </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+
     <script type="text/javascript">
       //Scroll reveal animations
-
-      new WOW().init()
 
       //Scroll activated background change
       $(function () {
