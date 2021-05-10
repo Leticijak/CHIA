@@ -124,7 +124,7 @@ body {
   position: absolute;
   margin-top: 130px;
   margin-left: 40px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-size: 24px;
   font-weight: 300;
 }
@@ -459,7 +459,7 @@ input {
 }
 
 #blockquote {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-style: italic;
   font-size: 24px;
   padding: 30px 20px;
